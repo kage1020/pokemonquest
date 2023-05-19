@@ -1,0 +1,87 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>ポケモンクエスト</title>
+ <link rel="stylesheet" href="ポケモンクエスト(PvP).css">
+ <link rel="icon" href="../ポケモンクエスト画像/モンスターボール.png">
+</head>
+<body>
+ <div id="body">
+ <script src="ポケモンクエスト(PvP)().js"></script>
+ <div id="pokemon1">
+  <img src="../ポケモンクエスト画像/モンスターボール.png" id="PK1" class="PK1" alt="画像の読み込みに失敗しました。指定した画像が存在するか確認してください。">
+ </div>
+ <div id="status1">
+  <span id="namedp1">someone</span>
+  <div><span id="type11">?</span> <span id="type12">?</span></div>
+  <div>こうげき<span id="ARdp1">・・・・・・</span></div>
+  <div>ぼうぎょ<span id="BRdp1">・・・・・・</span></div>
+  <div>とくこう<span id="CRdp1">・・・・・・</span></div>
+  <div>とくぼう<span id="DRdp1">・・・・・・</span></div>
+  <div>すばやさ<span id="SRdp1">・・・・・・</span></div>
+ </div>
+ <div id="pokemon2">
+  <img src="../ポケモンクエスト画像/モンスターボール.png" id="PK2" class="PK2" alt="画像の読み込みに失敗しました。指定した画像が存在するか確認してください。">
+ </div>
+ <div id="status2">
+  <span id="namedp2">someone</span>
+  <div><span id="type21">?</span> <span id="type22">?</span></div>
+  <div>こうげき<span id="ARdp2">・・・・・・</span></div>
+  <div>ぼうぎょ<span id="BRdp2">・・・・・・</span></div>
+  <div>とくこう<span id="CRdp2">・・・・・・</span></div>
+  <div>とくぼう<span id="DRdp2">・・・・・・</span></div>
+  <div>すばやさ<span id="SRdp2">・・・・・・</span></div>
+ </div>
+ <div>
+  <b id="Fdp11" class="Fdp11">?</b>
+  <b id="Fdp12" class="Fdp12">?</b>
+  <b id="Fdp21" class="Fdp21">?</b>
+  <b id="Fdp22" class="Fdp22">?</b>
+ </div>
+ <div class="dp1" id="dp1"> Lv.<span id="Lv1"></span> 　<span id="name1">ERROR</span> HP <span id="HP1"></span> / <span id="MHP1"></span></div>
+ <div class="dp2" id="dp2"> Lv.<span id="Lv2"></span> 　<span id="name2">ERROR</span> HP <span id="HP2"></span> / <span id="MHP2"></span></div>
+ <div><img src="../ポケモンクエスト画像/メガシンカ.png" id="MA1" class="MA1"></div>
+ <div><img src="../ポケモンクエスト画像/メガシンカ.png" id="MA2" class="MA2"></div>
+ <div>
+  <button id="attack1" class="attack1"><span id="Adp1" class="Adp1">たたかう</span></button>
+  <button id="attack2" class="attack2"><span id="Adp2" class="Adp2">たたかう</span></button>
+  <button id="change1" class="change1"><span id="Cdp1" class="Cdp1">ポケモン</span></button>
+  <button id="change2" class="change2"><span id="Cdp2" class="Cdp2">ポケモン</span></button>
+  <button id="MGdp1" class="mega1"><img src="../ポケモンクエスト画像/メガシンカ1.png" id="MG1" class="MG1"></button>
+  <button id="MGdp2" class="mega2"><img src="../ポケモンクエスト画像/メガシンカ1.png" id="MG2" class="MG2"></button>
+  <button id="MAXdp1" class="bigMAX1"><img src="../ポケモンクエスト画像/ダイマックス1.png" id="MAX1" class="MAX1"></button>
+  <button id="MAXdp2" class="bigMAX2"><img src="../ポケモンクエスト画像/ダイマックス1.png" id="MAX2" class="MAX2"></button>
+  <button id="skill11" class="skill11"><span id="skill11dp" class="skilldp">?</span></button>
+  <button id="skill12" class="skill12"><span id="skill12dp" class="skilldp">?</span></button>
+  <button id="skill13" class="skill13"><span id="skill13dp" class="skilldp">?</span></button>
+  <button id="skill14" class="skill14"><span id="skill14dp" class="skilldp">?</span></button>
+  <button id="skill21" class="skill21"><span id="skill21dp" class="skilldp">?</span></button>
+  <button id="skill22" class="skill22"><span id="skill22dp" class="skilldp">?</span></button>
+  <button id="skill23" class="skill23"><span id="skill23dp" class="skilldp">?</span></button>
+  <button id="skill24" class="skill24"><span id="skill24dp" class="skilldp">?</span></button>
+ </div>
+ <div>
+  <img src="../ポケモンクエスト画像/モンスターボール.png" id="subPK1" class="subPK1">
+  <img src="../ポケモンクエスト画像/モンスターボール.png" id="subPK2" class="subPK2">
+  <img src="../ポケモンクエスト画像/モンスターボール.png" id="subPK3" class="subPK3">
+  <img src="../ポケモンクエスト画像/モンスターボール.png" id="subPK4" class="subPK4">
+  <img src="../ポケモンクエスト画像/モンスターボール.png" id="subPK5" class="subPK5">
+  <img src="../ポケモンクエスト画像/モンスターボール.png" id="subPK6" class="subPK6">
+ </div>
+ <div>
+  <audio id="audio1"></audio>
+  <audio id="audio2"></audio>
+ </div>
+ <script src="constの集い.js"></script>
+ <script src="PQ色々1.js"></script>
+ <script src="PQ色々2.js"></script>
+ <script src="PQ色々3.js"></script>
+ <script src="PQ色々4.js"></script>
+ <script src="PQ色々5.js"></script>
+ <script src="PQ色々6.js"></script>
+ <script src="タイプ相性.js"></script>
+ <script src="open&close.js"></script>
+ <script src="seconddp.js"></script>
+ </div>
+</body>
+</html>

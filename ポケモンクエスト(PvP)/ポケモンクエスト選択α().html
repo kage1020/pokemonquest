@@ -1,0 +1,102 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>ポケモン選択</title>
+ <link rel="stylesheet" href="ポケモン選択.css">
+ <link rel="icon" href="../ポケモンクエスト画像/モンスターボール.png">
+</head>
+<body>
+ <div id="body2">
+ <h2>ポケモンを選んでください</h2>
+ <div>
+  <button id="set" class="set">決定</button>
+  <span id="PKname" class="name"> </span>
+  <img src="../ポケモンクエスト画像/?.png" id="PK" class="PKcenter" alt="未解禁">
+  <img src="../ポケモンクエスト画像/?.png" id="subPKL" class="subPKL" alt="未解禁">
+  <img src="../ポケモンクエスト画像/?.png" id="subPKR" class="subPKR" alt="未解禁">
+  <button id="left" class="left">◀</button>
+  <button id="right" class="right">▶</button>
+  <button id="highleft" class="highleft">◀◀</button>
+  <button id="highright" class="highright">▶▶</button>
+ </div>
+ <div class="F">特性　<span id="F"> </span></div>
+ <div class="Fdp"><span id="Fdp"> </span></div>
+ <div class="Lv">Lv.<span id="Lv"> </span></div>
+ <div class="type"><span id="type1"> </span> <span id="type2"> </span></div>
+ <div class="HP">HP 　<span id="HP"> </span></div>
+ <div class="attack">こうげき <span id="attack"> </span></div>
+ <div class="block">ぼうぎょ <span id="block"> </span></div>
+ <div class="contact">とくこう <span id="contact"> </span></div>
+ <div class="defense">とくぼう <span id="defense"> </span></div>
+ <div class="speed">すばやさ ～<span id="speed"> </span>～</div>
+ <table class="table">
+  <tr>
+   <th colspan="3">使える技</th>
+  </tr>
+  <tr>
+   <th class="intable"><div id="SL1"><div id="skill1"><img src="../ポケモンクエスト画像/みずアイコン?.png" class="imgsize" id="icon1"><span id="skilldp1"> </span></div></div></th></span>
+  </tr>
+  <tr>
+   <th class="intable"><div id="SL2"><div id="skill2"><img src="../ポケモンクエスト画像/どくアイコン?.png" class="imgsize" id="icon2"><span id="skilldp2"> </span></div></div></th>
+  </tr>
+  <tr>
+   <th class="intable"><div id="SL3"><div id="skill3"><img src="../ポケモンクエスト画像/ノーマルアイコン?.png" class="imgsize" id="icon3"><span id="skilldp3"> </span></div></div></th>
+  </tr>
+  <tr>
+   <th class="intable"><div id="SL4"><div id="skill4"><img src="../ポケモンクエスト画像/どくアイコン?.png" class="imgsize" id="icon4"><span id="skilldp4"> </span></div></div></th>
+  </tr>
+  <tr>
+   <td colspan="3">
+    <div id="dp">
+    <table>
+     <tr>
+      <td><span><b class="rightborder">分類 <span id="type">物理</span></b><b class="rightborder">威力 <span id="damage">100</span></b><b> 命中 <span id="rate">100</span></b></span></td>
+     </tr>
+     <tr class="subtable">
+      <th><span id="subdp">aaaaaaaaaaaaaaaaaaaaaaa</span></th>
+     </tr>
+    </table>
+    </div>
+   </td>
+  </tr>
+ </table>
+ <div>
+  <span id="P1" class="P1"></span>
+  <span id="P2" class="P2"></span>
+ </div>
+ <b id="VS">VS</b>
+ <div>
+  <img src="../ポケモンクエスト画像/モンスターボール.png" id="PK11" class="PK11" alt="underfind">
+  <img src="../ポケモンクエスト画像/モンスターボール.png" id="PK12" class="PK12" alt="underfind">
+  <img src="../ポケモンクエスト画像/モンスターボール.png" id="PK13" class="PK13" alt="underfind">
+  <img src="../ポケモンクエスト画像/モンスターボール.png" id="PK21" class="PK21" alt="underfind">
+  <img src="../ポケモンクエスト画像/モンスターボール.png" id="PK22" class="PK22" alt="underfind">
+  <img src="../ポケモンクエスト画像/モンスターボール.png" id="PK23" class="PK23" alt="underfind">
+ </div>
+ <div id="Imrotom">
+  <select class="rotom" id="rotom" onclick="changerotom();">
+   <option style="color: #300770" value="0">ロトム</option>
+   <option style="color: #FF421C" value="1">ヒートロトム</option>
+   <option style="color: #028DFF" value="2">ウォッシュロトム</option>
+   <option style="color: #55D600" value="3">カットロトム</option>
+   <option style="color: #ABBFF3" value="4">スピンロトム</option>
+   <option style="color: #44D3FF" value="5">フロストロトム</option>
+  </select>
+ </div>
+ <div id="MAXdp">
+  <img src="../ポケモンクエスト画像/ダイマックスアメ.jpg" id="MAXcandy">
+  <b>X<div id="candymath" style="display: inline">10</div></b>
+ </div>
+ </div>
+ <div id="body1">
+ <script src="ポケモン選択1.js"></script>
+  <h2 style="font-size: 30px">ポケモンを決めるルールを選択してください</h2>
+  <button id="third"><b>三体選択制</b></button>
+  <button id="sixinthird"><b>六体中三体選択制</b></button>
+ </div>
+ <script src="ポケモン選択2.js"></script>
+ <script src="ポケモン選択3.js"></script>
+ <script src="ポケモン選択4.js"></script>
+ <script src="ポケモン選択5.js"></script>
+</body>
+</html>

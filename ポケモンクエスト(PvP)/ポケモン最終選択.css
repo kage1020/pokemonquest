@@ -1,0 +1,44 @@
+#body { visibility: hidden; }
+.PK {
+     width: 100px;
+}
+.lastPK {
+     width: 150px;
+}
+.PK10 {
+     width: 210px;
+     position: absolute;
+     top: 70px;
+     left: 390px;
+}
+.PK20 {
+     width: 210px;
+     position: absolute;
+     top: 70px;
+     left: 690px;
+}
+.lastPM1 {
+        display: flex;
+        justify-content: space-between;
+        width: 470px;
+        position: absolute;
+        top: 500px;
+        left: 10px;
+}
+.lastPM2 {
+        display: flex;
+        justify-content: space-between;
+        width: 470px;
+        position: absolute;
+        bottom: 8px;
+        right: 10px;
+}
+#setbutton {
+          width: 100px;
+          height: 80px;
+          font-size: 45px;
+          position: absolute;
+          top: 400px;
+          left: 600px;
+          visibility: hidden;
+}
